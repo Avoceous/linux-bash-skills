@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# to list all commands available to be directly excecuted 
+compgen -c
+
+# to search for commands having a specific keyword
+compgen -c | grep gnome
+
+# to count total number of commands available for use
+compgen -c | wc -l
+
